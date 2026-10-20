@@ -12,7 +12,13 @@ export interface ApiRequestOptions extends Omit<RequestInit, "body" | "headers">
 
 function buildUrl(path: string): string {
   if (/^https?:\/\//i.test(path)) return path;
-  return `${API_BASE_URL}${path.startsWith("/") ? "" : "/"}${path}`;
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  if (typeof window === "undefined") return `${API_BASE_URL}${normalized}`;
+  // В браузере запрос идёт через прокси на своём домене. Next.js убирает слэш в конце
+  // адреса редиректом, поэтому отправляем без него — прокси добавит его сам.
+  const [pathname = "", query] = normalized.split("?", 2);
+  const trimmed = pathname.replace(/\/+$/, "");
+  return `${API_BASE_URL}${trimmed}${query !== undefined ? `?${query}` : ""}`;
 }
 
 function extractErrorMessage(data: unknown, status: number): string {

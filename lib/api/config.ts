@@ -1,17 +1,22 @@
 /**
- * Базовый URL реального backend API.
+ * Адрес backend API (Django REST).
  *
- * Берётся из NEXT_PUBLIC_API_URL (см. .env.local / .env.example), а если переменная
- * не задана — используется адрес тестового сервера из ТЗ, чтобы приложение работало
- * "из коробки" и в окружениях без .env файла.
+ * Сервер работает по обычному HTTP, а сайт на Vercel — по HTTPS: браузер блокирует
+ * такие запросы (mixed content). Поэтому:
+ *  - на сервере (SSR, route handlers) ходим на backend напрямую — BACKEND_URL;
+ *  - в браузере ходим на свой же домен, в прокси `app/backend-api/[...path]`,
+ *    который пересылает запрос на backend.
  *
- * ВАЖНО: в ТЗ базовый URL указан как "http://16.170.163.62" (без пути), но реальный
- * DRF-роутер живёт под "/api/" — это подтверждается корневым эндпоинтом
- * http://16.170.163.62/api/, который отдаёт стандартный список DRF-router'а
- * ({"categories": ".../api/categories/", "brands": ..., ...}), тогда как запросы
- * на голый хост (например, http://16.170.163.62/categories) отдают 404. Все
- * относительные пути в lib/api/*.ts скопированы из Postman-документации дословно
- * ("{{url}}/categories" и т.п.) — поэтому префикс "/api" добавляется один раз здесь,
- * а не выдумывается в каждом отдельном запросе.
+ * DRF-роутер живёт под "/api/" (корень http://16.170.163.62/api/ отдаёт список
+ * эндпоинтов, а голый хост — 404), поэтому префикс "/api" входит в адрес.
  */
-export const API_BASE_URL = (process.env.NEXT_PUBLIC_API_URL ?? "http://16.170.163.62/api").replace(/\/+$/, "");
+export const BACKEND_URL = (
+  process.env.API_URL ??
+  process.env.NEXT_PUBLIC_API_URL ??
+  "http://16.170.163.62/api"
+).replace(/\/+$/, "");
+
+/** Прокси на своём домене — для запросов из браузера. */
+export const BROWSER_API_BASE = "/backend-api";
+
+export const API_BASE_URL = typeof window === "undefined" ? BACKEND_URL : BROWSER_API_BASE;
