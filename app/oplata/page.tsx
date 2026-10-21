@@ -7,7 +7,7 @@ import { ApiError } from "@/lib/api/errors";
 import styles from "./oplata.module.css";
 
 export const metadata: Metadata = {
-  title: "Способы оплаты — Стройоптторг",
+  title: "Способы оплаты — StroyMarket",
   description:
     "Оплата банковской картой через ПАО СБЕРБАНК, наличными при получении, сервис «Покупай со Сбером», условия возврата товара и описание процесса передачи данных.",
 };
@@ -23,7 +23,7 @@ function PaymentBreadcrumbs({ title }: { title: string }) {
   return (
     <div className={styles.breadcrumbs}>
       <div className={styles.breadcrumbItem}>
-        <Link href="/">Стройоптторг</Link>
+        <Link href="/">StroyMarket</Link>
       </div>
       <div className={styles.breadcrumbItem}>{title}</div>
     </div>

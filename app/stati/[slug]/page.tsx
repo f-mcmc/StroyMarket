@@ -8,7 +8,7 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
   const post = findPost("stati", slug);
-  return { title: post ? `${post.title} - Стройоптторг` : "Стройоптторг" };
+  return { title: post ? `${post.title} - StroyMarket` : "StroyMarket" };
 }
 
 export default async function StatiPostPage({ params }: PageProps) {

@@ -8,7 +8,7 @@ interface CompanyHistoryProps {
 }
 
 /**
- * Блок «История ООО "Стройоптторг"»: сетка 2×2 из карточек-годов, последняя
+ * Блок «История ООО "StroyMarket"»: сетка 2×2 из карточек-годов, последняя
  * ячейка — карточка «Сегодня» с показателями и фоновой графикой.
  */
 export function CompanyHistory({ title, entries, today }: CompanyHistoryProps) {

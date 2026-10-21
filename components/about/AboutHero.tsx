@@ -10,7 +10,7 @@ export function AboutHero({ intro }: { intro: CompanyIntro }) {
         <div className={styles.aboutContent}>
           <div className={styles.breadcrumbs}>
             <div className={styles.breadcrumbItem}>
-              <Link href="/">Стройоптторг</Link>
+              <Link href="/">StroyMarket</Link>
             </div>
             <div className={styles.breadcrumbItem}>{intro.title}</div>
           </div>

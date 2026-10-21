@@ -4,8 +4,8 @@ import { SearchResults } from "@/components/search/SearchResults";
 import { styles } from "@/styles/index.styles";
 
 export const metadata: Metadata = {
-  title: "Поиск товаров — Стройоптторг",
-  description: "Поиск по каталогу «Стройоптторг»: инструмент, стройматериалы, сантехника, электрика и садовая техника.",
+  title: "Поиск товаров — StroyMarket",
+  description: "Поиск по каталогу «StroyMarket»: инструмент, стройматериалы, сантехника, электрика и садовая техника.",
 };
 
 interface SearchPageProps {
@@ -22,7 +22,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     <div className={`${styles.container} py-8`}>
       <Breadcrumbs
         items={[
-          { label: "Стройоптторг", href: "/" },
+          { label: "StroyMarket", href: "/" },
           { label: query ? `Поиск: «${query}»` : "Поиск" },
         ]}
       />

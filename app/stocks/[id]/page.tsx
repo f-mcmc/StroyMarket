@@ -23,7 +23,7 @@ export default async function StockDetailPage({ params }: StockDetailProps) {
     <div className={`${styles.container} min-w-0 py-6 bg-white font-sans text-gray-900`}>
       {/* Хлебные крошки */}
       <nav className="text-xs text-gray-500 mb-4 flex items-center gap-1.5 overflow-x-auto whitespace-nowrap py-1">
-        <Link href="/" className="hover:text-blue-600">Стройоптторг</Link>
+        <Link href="/" className="hover:text-blue-600">StroyMarket</Link>
         <span>/</span>
         <Link href="/stocks" className="hover:text-blue-600">Акции</Link>
         <span>/</span>

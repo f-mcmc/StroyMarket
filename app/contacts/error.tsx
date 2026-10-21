@@ -25,7 +25,7 @@ export default function ContactsError({
         <div className={styles.container}>
           <div className={styles.breadcrumbs}>
             <div className={styles.breadcrumbItem}>
-              <Link href="/">Стройоптторг</Link>
+              <Link href="/">StroyMarket</Link>
             </div>
             <div className={styles.breadcrumbItem}>Контакты</div>
           </div>

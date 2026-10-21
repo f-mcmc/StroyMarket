@@ -6,8 +6,8 @@ import { deliveryContent, deliveryPromo } from "@/data/delivery-data";
 import { DeliveryBlock } from "@/types/delivery";
 
 export const metadata = {
-  title: "Условия доставки — Стройоптторг",
-  description: "Способы получения заказа: самовывоз, доставка по Карачаево-Черкесской республике, транспортной компанией и Почтой России.",
+  title: "Условия доставки — StroyMarket",
+  description: "Способы получения заказа: самовывоз, доставка по Ташкенту и Ташкентской области, транспортной компанией и Почтой России.",
 };
 
 function renderBlock(block: DeliveryBlock, key: number) {
@@ -69,7 +69,7 @@ function renderBlock(block: DeliveryBlock, key: number) {
 export default function DostavkaPage() {
   return (
     <div className="mx-auto max-w-[1680px] px-4 py-8 sm:px-6 lg:px-8">
-      <Breadcrumbs items={[{ label: "Стройоптторг", href: "/" }, { label: "Доставка" }]} />
+      <Breadcrumbs items={[{ label: "StroyMarket", href: "/" }, { label: "Доставка" }]} />
 
       <h1 className="mb-6 text-3xl font-bold text-neutral-900 sm:text-4xl">Доставка</h1>
 

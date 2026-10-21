@@ -7,7 +7,7 @@ const returnSteps = [
     icon: PhoneCall,
     title: "Свяжитесь с нами",
     description:
-      "Позвоните по телефону 8 800 444 00 65 или напишите на info@stroiopttorg.ru и опишите причину возврата.",
+      "Позвоните по телефону +998 00 000-00-00 или напишите на demo@stroymarket.example и опишите причину возврата.",
   },
   {
     icon: PackageCheck,

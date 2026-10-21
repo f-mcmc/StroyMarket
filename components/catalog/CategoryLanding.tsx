@@ -16,8 +16,8 @@ export default function CategoryLanding({ node, basePath }: { node: CategoryTree
       {node.children.length === 0 ? (
         <p className="mt-6 text-sm text-neutral-500">
           В этой категории пока нет подкатегорий. Уточните ассортимент у менеджера по телефону{" "}
-          <a href="tel:88004440065" className="font-semibold text-neutral-900 hover:text-blue-600">
-            8 800 444 00 65
+          <a href="tel:998000000000" className="font-semibold text-neutral-900 hover:text-blue-600">
+            +998 00 000-00-00
           </a>
           .
         </p>

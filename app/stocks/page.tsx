@@ -4,7 +4,7 @@ import { stocks } from "@/data/stocks";
 import { styles } from "@/styles/index.styles";
 
 export const metadata = {
-  title: "Акции - Стройоптторг",
+  title: "Акции - StroyMarket",
   description: "Действующие акции и специальные предложения - Интернет-магазин товаров для строительства и ремонта",
 };
 

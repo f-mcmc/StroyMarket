@@ -18,7 +18,7 @@ export interface ContactAddress {
 
 /** Телефон: отображаемый вид + нормализованный номер для `tel:`. */
 export interface ContactPhone {
-  /** Как показываем: «8 (8782) 28-42-72». */
+  /** Как показываем: «+998 00 000-00-00». */
   label: string;
   /** Как уходит в href: «88782284272». */
   tel: string;
@@ -36,7 +36,7 @@ export interface ContactSchedule {
 
 /** Белая карточка поверх карты: реквизиты головного офиса. */
 export interface ContactsCard {
-  /** Заголовок карточки: «ООО «Стройоптторг»». */
+  /** Заголовок карточки: «ООО «StroyMarket»». */
   legalName: string;
   address: ContactAddress;
   phone: ContactPhone;

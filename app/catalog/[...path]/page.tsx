@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: CatalogPathPageProps): Promis
 
     if (match && match.matchedSegments === path.length) {
       return {
-        title: `${match.node.name}: купить в интернет-магазине «Стройоптторг»`,
+        title: `${match.node.name}: купить в интернет-магазине «StroyMarket»`,
         description: `Каталог товаров «${match.node.name}» — большой выбор, доставка по всей России.`,
       };
     }
@@ -86,10 +86,10 @@ export async function generateMetadata({ params }: CatalogPathPageProps): Promis
       const found = products.find((p) => p.slug === slug);
       if (found) {
         return {
-          title: `${found.name}: купить в интернет-магазине «Стройоптторг»`,
+          title: `${found.name}: купить в интернет-магазине «StroyMarket»`,
           description:
             found.description ??
-            `${found.name} — купить в разделе «${match.node.name}» интернет-магазина «Стройоптторг».`,
+            `${found.name} — купить в разделе «${match.node.name}» интернет-магазина «StroyMarket».`,
         };
       }
     }

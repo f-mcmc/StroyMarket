@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Send, ChevronDown } from "lucide-react";
 import Logo1 from "@/src/svg/logo1.svg";
-import ReadyCodeLogo from "@/src/svg/readycode_logo_3 1.svg";
 import MastercardIcon from "@/src/svg/Group 46.svg";
 import HalvaIcon from "@/src/svg/Group 47.svg";
 import MirLogo from "@/src/svg/Group 48.svg";
@@ -73,7 +72,7 @@ const catalogColumnsTwo = [
 function Logo() {
   return (
     <Link href="/" className="flex items-center">
-      <Image src={Logo1} alt="СТРОЙОПТТОРГ" className="h-9 w-auto" priority />
+      <Image src={Logo1} alt="STROYMARKET" className="h-9 w-auto" priority />
     </Link>
   );
 }
@@ -116,14 +115,9 @@ function SubscribeForm({ wide = false }) {
   );
 }
 
+/** Подпись вместо логотипа студии оригинального сайта: это демо-проект. */
 function ReadyCodeBadge() {
-  return (
-    <Image
-      src={ReadyCodeLogo}
-      alt="Разработка сайта READYCODE.RU"
-      className="h-[22px] w-auto"
-    />
-  );
+  return <span className="text-xs text-neutral-500">Демо-проект для портфолио · Next.js + TypeScript</span>;
 }
 
 function AccordionSection({
@@ -162,16 +156,16 @@ export default function Footer() {
           <Logo />
           <div className="text-right text-xs text-neutral-600">
             <div>Email:</div>
-            <a href="mailto:info@stroiopttorg.ru" className="text-blue-600 hover:underline">
-              info@stroiopttorg.ru
+            <a href="mailto:demo@stroymarket.example" className="text-blue-600 hover:underline">
+              demo@stroymarket.example
             </a>
           </div>
         </div>
 
         <div className="mt-4 flex items-center justify-between gap-3">
           <div className="text-xs text-neutral-600">
-            <a href="tel:88004440065" className="block text-base font-semibold text-neutral-900">
-              8 800 444 00 65
+            <a href="tel:998000000000" className="block text-base font-semibold text-neutral-900">
+              +998 00 000-00-00
             </a>
             <div>Ежедневно, с 8:00 до 18:00</div>
           </div>
@@ -215,7 +209,7 @@ export default function Footer() {
 
         <div className="mt-6 border-t border-neutral-200 pt-4 text-xs text-neutral-500">
           <p>
-            © 2003-2023 Интернет-магазин ООО «Стройопттрог» р/с 40702810360000102415 в
+            © 2003-2023 Интернет-магазин StroyMarket (демо) р/с 40702810360000102415 в
             Ставропольское отделение №5230 ПАО Сбербанк, БИК 040702615
           </p>
           <Link href="/privacy-policy" className="mt-2 inline-block hover:text-blue-600 hover:underline">
@@ -234,13 +228,13 @@ export default function Footer() {
           <Logo />
           <div className="text-xs text-neutral-600">
             <div>Email:</div>
-            <a href="mailto:info@stroiopttorg.ru" className="text-blue-600 hover:underline">
-              info@stroiopttorg.ru
+            <a href="mailto:demo@stroymarket.example" className="text-blue-600 hover:underline">
+              demo@stroymarket.example
             </a>
           </div>
           <div className="text-xs text-neutral-600">
-            <a href="tel:88004440065" className="block text-base font-semibold text-neutral-900">
-              8 800 444 00 65
+            <a href="tel:998000000000" className="block text-base font-semibold text-neutral-900">
+              +998 00 000-00-00
             </a>
             <div>Ежедневно, с 8:00 до 18:00</div>
           </div>
@@ -288,7 +282,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap items-center justify-between gap-4 border-t border-neutral-200 px-4 py-4 text-xs text-neutral-500">
           <div>
-            <p>© 2003-2023 Интернет-магазин ООО «Стройопттрог» р/с 40702810360000102415</p>
+            <p>© 2003-2023 Интернет-магазин StroyMarket (демо) р/с 40702810360000102415</p>
             <p>в Ставропольском отделении №5230 ПАО Сбербанк, БИК 040702615</p>
           </div>
           <div className="flex items-center gap-4">
@@ -305,23 +299,23 @@ export default function Footer() {
         <div className={`${styles.container} flex flex-wrap items-center justify-between gap-6 border-b border-neutral-200 py-6`}>
           <Logo />
 
-          <div className="text-xs text-neutral-600">ООО «Стройопттрог»</div>
+          <div className="text-xs text-neutral-600">StroyMarket (демо)</div>
 
           <div className="text-xs text-neutral-600">
-            <div>ИНН: 0901051787</div>
-            <div>КПП 090101001</div>
+            <div>ИНН: — (демо)</div>
+            <div>КПП: — (демо)</div>
           </div>
 
           <div className="text-xs text-neutral-600">
             <div>Email:</div>
-            <a href="mailto:info@stroiopttorg.ru" className="text-blue-600 hover:underline">
-              info@stroiopttorg.ru
+            <a href="mailto:demo@stroymarket.example" className="text-blue-600 hover:underline">
+              demo@stroymarket.example
             </a>
           </div>
 
           <div className="text-xs text-neutral-600">
-            <a href="tel:88004440065" className="text-base font-semibold text-neutral-900">
-              8 800 444 00 65
+            <a href="tel:998000000000" className="text-base font-semibold text-neutral-900">
+              +998 00 000-00-00
             </a>
             <div>Ежедневно, с 8:00 до 18:00</div>
           </div>
@@ -419,7 +413,7 @@ export default function Footer() {
 
         <div className={`${styles.container} flex flex-wrap items-center justify-between gap-4 border-t border-neutral-200 py-4 text-xs text-neutral-500`}>
           <div>
-            <p>© 2003-2023 Интернет-магазин ООО «Стройопттрог» р/с 40702810360000102415</p>
+            <p>© 2003-2023 Интернет-магазин StroyMarket (демо) р/с 40702810360000102415</p>
             <p>в Ставропольском отделении №5230 ПАО Сбербанк, БИК 040702615</p>
           </div>
           <div className="flex items-center gap-4">

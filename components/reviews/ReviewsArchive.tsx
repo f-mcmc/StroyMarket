@@ -24,7 +24,7 @@ export function ReviewsArchive({ page, sort, basePath }: ReviewsArchiveProps) {
 
   return (
     <div className={`${styles.container} py-8`}>
-      <Breadcrumbs items={[{ label: "Стройоптторг", href: "/" }, { label: "Отзывы" }]} />
+      <Breadcrumbs items={[{ label: "StroyMarket", href: "/" }, { label: "Отзывы" }]} />
 
       <h1 className="mb-6 text-3xl font-bold text-neutral-900 sm:text-4xl">Отзывы</h1>
 

@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Стройоптторг",
+  title: "StroyMarket",
   description: "Интернет-магазин товаров для строительства и ремонта",
 };
 
@@ -16,6 +16,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col">
         <Providers>
           <ShopProvider>
+            <div className="bg-amber-100 px-4 py-1.5 text-center text-xs text-amber-950">
+              Демо-проект для портфолио: это не настоящий магазин, заказы не исполняются.
+            </div>
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />

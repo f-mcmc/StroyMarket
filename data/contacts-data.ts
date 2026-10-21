@@ -26,20 +26,20 @@ export const contactsTitle = "Контакты";
  */
 export const contactsMap: ContactsMap = {
   embedUrl:
-    "https://yandex.ru/map-widget/v1/?lang=ru_RU&scroll=false&source=constructor-api&um=constructor%3A118b76b1d6a2d3c1b4c918c9e8b0158629e7341b2ffeda1862f58f5ef5bd73d8",
-  title: "Карта: ООО «Стройоптторг», г. Черкесск, ул. Октябрьская, 301",
+    "https://yandex.ru/map-widget/v1/?ll=69.240562%2C41.311081&z=12&lang=ru_RU",
+  title: "Карта: ООО «StroyMarket», г. Ташкент (демо)",
 };
 
 export const contactsCard: ContactsCard = {
-  legalName: "ООО «Стройоптторг»",
+  legalName: "ООО «StroyMarket»",
   address: {
-    postalCode: "369012",
-    region: "Карачаево-Черкесская Республика",
-    locality: "г. Черкесск",
-    street: "ул Октябрьская,  дом 301",
+    postalCode: "100000",
+    region: "Ташкент",
+    locality: "г. Ташкент",
+    street: "ул. Примерная, 1 (демо-адрес)",
   },
-  phone: { label: "8 (8782) 28-42-72", tel: "88782284272" },
-  email: "info@stroiopttorg.ru",
+  phone: { label: "+998 00 000-00-00", tel: "998000000000" },
+  email: "demo@stroymarket.example",
   schedule: {
     label: "Ежедневно, с 8:00 до 17:00",
     note: "Без перерыва и выходных",
@@ -53,57 +53,54 @@ export const contactDepartments: ContactDepartment[] = [
   {
     id: "director",
     title: "Генеральный директор:",
-    phone: { label: "8 (8782) 28-42-67 (приемная)", tel: "88782284267" },
+    phone: { label: "+998 00 000-00-00 (приемная)", tel: "998000000000" },
   },
   {
     id: "supply",
     title: "Отдел снабжения:",
-    phone: { label: "8 (8782) 28-42-67", tel: "88782284267" },
+    phone: { label: "+998 00 000-00-00", tel: "998000000000" },
   },
   {
     id: "sales",
     title: "Отдел сбыта:",
-    phone: { label: "8(8782) 28-45-81", tel: "88782284581" },
+    phone: { label: "+998 00 000-00-00", tel: "998000000000" },
   },
   {
     id: "legal",
     title: "Юридический отдел:",
-    phone: { label: "8 (8782) 28-42-69", tel: "88782284269" },
+    phone: { label: "+998 00 000-00-00", tel: "998000000000" },
   },
   {
     id: "accounting",
     title: "Бухгалтерия:",
-    phone: { label: "8 (8782) 28-42-71", tel: "88782284271" },
+    phone: { label: "+998 00 000-00-00", tel: "998000000000" },
   },
   {
     id: "delivery",
     title: "Отдел доставки:",
-    phone: { label: "8 (8782) 28-45-83", tel: "88782284583" },
+    phone: { label: "+998 00 000-00-00", tel: "998000000000" },
   },
   {
     id: "credit",
     title: "Кредитный отдел:",
-    phone: { label: "8 (8782) 28-45-82", tel: "88782284582" },
+    phone: { label: "+998 00 000-00-00", tel: "998000000000" },
   },
   {
     id: "hr",
     title: "Отдел кадров:",
-    phone: { label: "8 (8782) 28-42-73", tel: "88782284273" },
+    phone: { label: "+998 00 000-00-00", tel: "998000000000" },
   },
 ];
 
 export const contactRequisites: ContactRequisites = {
   title: "Реквизиты:",
   text:
-    'ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРОЙОПТТОРГ"ИНН 0901051787КПП ' +
-    "090101001369000, Карачаево-Черкесская республика, город Черкесск, Октябрьская " +
-    "улица, 301р/с 40702810360000102415 в Ставропольское отделение №5230 ПАО Сбербанк, " +
-    "БИК 040702615",
+    "StroyMarket — демо-проект для портфолио. Реквизиты не указываются: это не действующий магазин.",
 };
 
 /** Единый номер и почта для всех региональных представительств. */
-const REGION_PHONE = { label: "+7 (800) 444-00-65", tel: "+78004440065" };
-const REGION_EMAIL = "info@stroiopttorg.ru";
+const REGION_PHONE = { label: "+998 00 000-00-00", tel: "+998000000000" };
+const REGION_EMAIL = "demo@stroymarket.example";
 
 export const contactRegions: ContactRegionsBlock = {
   title: "Работаем по регионам:",

@@ -7,7 +7,7 @@ export interface CheckoutRegion {
 }
 
 export const checkoutRegions: CheckoutRegion[] = [
-  { id: "kchr", name: "Городской округ Черкесский", cities: ["Черкесск"] },
+  { id: "kchr", name: "Ташкент", cities: ["Ташкент"] },
   { id: "moscow-region", name: "Московская область", cities: ["Москва", "Химки", "Подольск"] },
   { id: "krasnodar", name: "Краснодарский край", cities: ["Краснодар", "Сочи", "Новороссийск"] },
   { id: "rostov", name: "Ростовская область", cities: ["Ростов-на-Дону", "Таганрог"] },
@@ -21,7 +21,7 @@ export const deliveryCosts: Record<DeliveryMethod, number> = {
   sdek: 1000,
 };
 
-export const pickupAddress = "г. Черкесск, ул. Октябрьская, д.301";
+export const pickupAddress = "г. Ташкент, ул. Примерная, 1 (демо-адрес)";
 
 export const mockPvzAddresses: string[] = [
   "г. Москва, ул. Складочная, 3, ПВЗ СДЭК №1",

@@ -1,7 +1,7 @@
 import { BlogArchive } from "@/components/blog/BlogArchive";
 
 export const metadata = {
-  title: "Блог - Стройоптторг",
+  title: "Блог - StroyMarket",
   description: "Блог - Интернет-магазин товаров для строительства и ремонта",
 };
 

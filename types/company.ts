@@ -36,7 +36,7 @@ export interface CompanyHistoryFact {
   value: string;
 }
 
-/** Карточка года в блоке «История ООО "Стройоптторг"». */
+/** Карточка года в блоке «История ООО "StroyMarket"». */
 export interface CompanyHistoryEntry {
   id: string;
   year: string;

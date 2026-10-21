@@ -5,9 +5,9 @@ import { ApiError } from "@/lib/api/errors";
 import styles from "./privacy-policy.module.css";
 
 export const metadata: Metadata = {
-  title: "Политика конфиденциальности — Стройоптторг",
+  title: "Политика конфиденциальности — StroyMarket",
   description:
-    "Политика конфиденциальности и обработки персональных данных ООО «Стройоптторг»: цели сбора, сроки и способы обработки, права сторон и порядок отзыва согласия.",
+    "Политика конфиденциальности и обработки персональных данных ООО «StroyMarket»: цели сбора, сроки и способы обработки, права сторон и порядок отзыва согласия.",
 };
 
 const FALLBACK_TITLE = "Политика конфиденциальности";
@@ -21,7 +21,7 @@ function PrivacyBreadcrumbs({ title }: { title: string }) {
   return (
     <div className={styles.breadcrumbs}>
       <div className={styles.breadcrumbItem}>
-        <Link href="/">Стройоптторг</Link>
+        <Link href="/">StroyMarket</Link>
       </div>
       <div className={styles.breadcrumbItem}>{title}</div>
     </div>

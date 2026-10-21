@@ -58,7 +58,7 @@ export async function listCompanyAdvantages(): Promise<CompanyAdvantage[]> {
   return companyAdvantages;
 }
 
-/** Карточки лет в блоке «История ООО "Стройоптторг"». */
+/** Карточки лет в блоке «История ООО "StroyMarket"». */
 export async function listCompanyHistory(): Promise<CompanyHistoryEntry[]> {
   return companyHistory;
 }

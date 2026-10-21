@@ -28,7 +28,7 @@ export default function VoprosOtvetError({
         <div className={styles.container}>
           <div className={styles.breadcrumbs}>
             <div className={styles.breadcrumbItem}>
-              <Link href="/">Стройоптторг</Link>
+              <Link href="/">StroyMarket</Link>
             </div>
             <div className={styles.breadcrumbItem}>Вопрос-ответ</div>
           </div>

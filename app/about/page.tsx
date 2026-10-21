@@ -10,9 +10,9 @@ import type { CompanyNewsItem } from "@/types/company";
 import styles from "./about.module.css";
 
 export const metadata: Metadata = {
-  title: "О компании — Стройоптторг",
+  title: "О компании — StroyMarket",
   description:
-    "«Стройоптторг» — крупнейшая оптово-розничная компания по продаже строительных и отделочных материалов. История компании, сертификаты и отзывы покупателей.",
+    "«StroyMarket» — крупнейшая оптово-розничная компания по продаже строительных и отделочных материалов. История компании, сертификаты и отзывы покупателей.",
 };
 
 function toMessage(error: unknown, fallback: string): string {
@@ -32,7 +32,7 @@ export default async function AboutPage() {
       <div className={styles.fluidRoot}>
         <div className={styles.container}>
           <div className={styles.breadcrumbs}>
-            <div className={styles.breadcrumbItem}>Стройоптторг</div>
+            <div className={styles.breadcrumbItem}>StroyMarket</div>
             <div className={styles.breadcrumbItem}>О компании</div>
           </div>
           <h1 className={`${styles.text48} ${styles.bold} ${styles.black2}`}>О компании</h1>

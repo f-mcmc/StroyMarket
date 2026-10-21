@@ -7,9 +7,9 @@ import { ApiError } from "@/lib/api/errors";
 import styles from "./vopros-otvet.module.css";
 
 export const metadata: Metadata = {
-  title: "Вопрос-Ответ — интернет-магазин Стройоптторг",
+  title: "Вопрос-Ответ — интернет-магазин StroyMarket",
   description:
-    "Ответы на частые вопросы покупателей «Стройоптторг»: возврат товара, доставка и разгрузка, минимальная сумма заказа, рассрочка и кредит, дополнительные услуги и акции.",
+    "Ответы на частые вопросы покупателей «StroyMarket»: возврат товара, доставка и разгрузка, минимальная сумма заказа, рассрочка и кредит, дополнительные услуги и акции.",
 };
 
 const FALLBACK_TITLE = "Вопрос-ответ";
@@ -23,7 +23,7 @@ function FaqBreadcrumbs({ title }: { title: string }) {
   return (
     <div className={styles.breadcrumbs}>
       <div className={styles.breadcrumbItem}>
-        <Link href="/">Стройоптторг</Link>
+        <Link href="/">StroyMarket</Link>
       </div>
       <div className={styles.breadcrumbItem}>{title}</div>
     </div>

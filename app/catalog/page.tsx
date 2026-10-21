@@ -7,7 +7,7 @@ import { ApiError } from "@/lib/api/errors";
 import styles from "./catalog.module.css";
 
 export const metadata: Metadata = {
-  title: "Каталог товаров — интернет-магазин «Стройоптторг»",
+  title: "Каталог товаров — интернет-магазин «StroyMarket»",
   description: "Каталог строительных материалов, инструмента и товаров для дома, сада и огорода.",
 };
 

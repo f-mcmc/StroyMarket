@@ -1,7 +1,7 @@
 import { BlogArchive } from "@/components/blog/BlogArchive";
 
 export const metadata = {
-  title: "Статьи - Стройоптторг",
+  title: "Статьи - StroyMarket",
 };
 
 export default function StatiCategoryPage() {

@@ -22,7 +22,7 @@ export default function AboutStore() {
           <h2 className="text-xl font-bold text-neutral-900 sm:text-2xl">О нашем магазине</h2>
 
           <p className="mt-4 text-sm leading-relaxed text-neutral-600">
-            «Стройоптторг» — крупный оптово-розничный магазин строительных материалов и
+            «StroyMarket» — крупный оптово-розничный магазин строительных материалов и
             инструментов. Мы работаем с проверенными поставщиками и известными брендами, чтобы вы
             могли найти всё необходимое для стройки и ремонта в одном месте, по честным ценам и с
             быстрой доставкой.
@@ -57,7 +57,7 @@ export default function AboutStore() {
         <div className="relative mt-8 aspect-1047/566 w-full overflow-hidden rounded-xl bg-[#F2F5F9] lg:absolute lg:inset-y-0 lg:right-0 lg:mt-0 lg:aspect-auto lg:w-[min(50vw,56rem)] lg:rounded-none">
           <Image
             src="/rasm.png"
-            alt="Строительные инструменты в магазине «Стройоптторг»"
+            alt="Строительные инструменты в магазине «StroyMarket»"
             fill
             sizes="(max-width: 1024px) 100vw, min(50vw, 896px)"
             className="object-cover object-center"

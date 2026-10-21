@@ -22,7 +22,7 @@ export default function AboutError({
     <div className={styles.fluidRoot}>
       <div className={styles.container}>
         <div className={styles.breadcrumbs}>
-          <div className={styles.breadcrumbItem}>Стройоптторг</div>
+          <div className={styles.breadcrumbItem}>StroyMarket</div>
           <div className={styles.breadcrumbItem}>О компании</div>
         </div>
 

@@ -2,7 +2,7 @@ import { ReviewsArchive } from "@/components/reviews/ReviewsArchive";
 import { parseSort } from "@/data/reviews-data";
 
 export const metadata = {
-  title: "Отзывы - Стройоптторг",
+  title: "Отзывы - StroyMarket",
   description: "Отзывы покупателей интернет-магазина товаров для строительства и ремонта",
 };
 

@@ -9,9 +9,9 @@ import { ApiError } from "@/lib/api/errors";
 import styles from "./contacts.module.css";
 
 export const metadata: Metadata = {
-  title: "Контакты — Стройоптторг",
+  title: "Контакты — StroyMarket",
   description:
-    "Адрес, телефоны отделов, email и график работы ООО «Стройоптторг», а также контакты представительств в Москве, Ставрополе, Краснодаре, Грозном, Ростове-на-Дону и Самаре.",
+    "Адрес, телефоны отделов, email и график работы ООО «StroyMarket», а также контакты представительств в Москве, Ставрополе, Краснодаре, Грозном, Ростове-на-Дону и Самаре.",
 };
 
 const FALLBACK_TITLE = "Контакты";
@@ -25,7 +25,7 @@ function ContactsBreadcrumbs({ title }: { title: string }) {
   return (
     <div className={styles.breadcrumbs}>
       <div className={styles.breadcrumbItem}>
-        <Link href="/">Стройоптторг</Link>
+        <Link href="/">StroyMarket</Link>
       </div>
       <div className={styles.breadcrumbItem}>{title}</div>
     </div>

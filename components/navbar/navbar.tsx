@@ -28,7 +28,7 @@ function Logo() {
     <Link href="/" className="flex shrink-0 items-center">
       <Image
         src={Logo1}
-        alt="СТРОЙОПТТОРГ"
+        alt="STROYMARKET"
         // Собственный размер SVG — 215×54. Раньше его вписывали в 166×34 через
         // object-contain, и картинка сжималась с пустыми полями по бокам. Теперь
         // ширина задаётся классом, высота — по пропорциям; на широких экранах
@@ -246,8 +246,8 @@ export default function Header() {
           >
             <Menu size={22} />
           </button>
-          <a href="tel:88004440065" className="whitespace-nowrap text-sm font-semibold">
-            8 800 444 00 65
+          <a href="tel:998000000000" className="whitespace-nowrap text-sm font-semibold">
+            +998 00 000-00-00
           </a>
           <OrderCallButton />
         </div>
@@ -280,8 +280,8 @@ export default function Header() {
           footer={
             <div className="flex flex-col items-start gap-3">
               <span className="text-xs text-neutral-500">Ежедневно, с 8:00 до 18:00</span>
-              <a href="tel:88004440065" className="text-lg font-bold text-neutral-900">
-                8 800 444 00 65
+              <a href="tel:998000000000" className="text-lg font-bold text-neutral-900">
+                +998 00 000-00-00
               </a>
               <OrderCallButton />
             </div>
@@ -317,8 +317,8 @@ export default function Header() {
               <span className="hidden whitespace-nowrap text-neutral-500 xl:inline">
                 Ежедневно, с 8:00 до 18:00
               </span>
-              <a href="tel:88004440065" className="whitespace-nowrap text-sm font-bold text-neutral-900 2xl:text-base">
-                8 800 444 00 65
+              <a href="tel:998000000000" className="whitespace-nowrap text-sm font-bold text-neutral-900 2xl:text-base">
+                +998 00 000-00-00
               </a>
               <OrderCallButton />
             </div>

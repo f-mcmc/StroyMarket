@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "./not-found.module.css";
 
 export const metadata: Metadata = {
-  title: "Страница не найдена — Стройоптторг",
+  title: "Страница не найдена — StroyMarket",
   description: "Запрашиваемая страница не найдена. Перейдите в каталог или на главную страницу.",
 };
 
@@ -24,7 +24,7 @@ export default function NotFound() {
         <div className={styles.container}>
           <div className={styles.breadcrumbs}>
             <div className={styles.breadcrumbItem}>
-              <Link href="/">Стройоптторг</Link>
+              <Link href="/">StroyMarket</Link>
             </div>
             <div className={styles.breadcrumbItem}>Страница не найдена</div>
           </div>

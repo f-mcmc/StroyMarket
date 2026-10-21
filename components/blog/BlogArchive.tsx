@@ -28,7 +28,7 @@ export function BlogArchive({ category, page, basePath }: BlogArchiveProps) {
     <div className="mx-auto max-w-[1680px] px-4 py-8 sm:px-6 lg:px-8">
       <Breadcrumbs
         items={[
-          { label: "Стройоптторг", href: "/" },
+          { label: "StroyMarket", href: "/" },
           category
             ? { label: "Блог", href: "/blog" }
             : { label: "Блог" },
