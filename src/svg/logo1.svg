@@ -3,5 +3,5 @@
   <path d="M15 31.5 26 22l11 9.5V39a1 1 0 0 1-1 1h-6.5v-6.5h-7V40H16a1 1 0 0 1-1-1v-7.5Z" fill="#ffffff"/>
   <path d="M13 30.5 26 19.5l13 11" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="56" y="33" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Stroy<tspan fill="#1d4ed8">Market</tspan></text>
-  <text x="57" y="46" font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#64748b" letter-spacing="0.6">ДЕМО-МАГАЗИН СТРОЙМАТЕРИАЛОВ</text>
+  <text x="57" y="46" font-family="Arial, Helvetica, sans-serif" font-size="7.4" fill="#64748b" letter-spacing="0.2">ДЕМО-МАГАЗИН СТРОЙМАТЕРИАЛОВ</text>
 </svg>
