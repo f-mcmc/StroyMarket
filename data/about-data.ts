@@ -16,7 +16,6 @@ import type {
  * https://www.stroiopttorg.ru/o-kompanii/ — это эталон, с которым сверяется вёрстка.
  */
 
-const UPLOADS = "https://www.stroiopttorg.ru/wp-content/uploads";
 
 export const companyIntro: CompanyIntro = {
   title: "О компании",
@@ -28,8 +27,8 @@ export const companyIntro: CompanyIntro = {
     "Все товары, представленные на сайте, гарантированно есть в наличии.",
     "Помимо материалов, мы предлагаем своим клиентам самый большой набор услуг, которые позволяют значительно упростить процесс строительства и ремонта и сделать его легким и комфортным.",
   ],
-  image: `${UPLOADS}/2023/10/about.webp`,
-  imageMobile: `${UPLOADS}/2023/10/about2.webp`,
+  image: "/demo/about.png",
+  imageMobile: "/demo/about-mobile.png",
   imageAlt: "Строительные и отделочные материалы «StroyMarket»",
 };
 

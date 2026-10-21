@@ -86,27 +86,15 @@ export const deliveryContent: DeliveryBlock[] = [
 ];
 
 export const deliveryPromo: DeliveryPromo = {
-  image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/09/promo5.webp",
+  image: "/demo/promo-heating.jpg",
   label: "Все для отопления",
   badge: "до -30%",
   href: "/blog",
 };
 
 export const deliveryImages: DeliveryImage[] = [
-  {
-    thumb: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery-552x330.webp",
-    full: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery.webp",
-  },
-  {
-    thumb: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery2-552x330.webp",
-    full: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery2.webp",
-  },
-  {
-    thumb: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery3-552x330.webp",
-    full: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery3.webp",
-  },
-  {
-    thumb: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery4-552x330.webp",
-    full: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/delivery4.webp",
-  },
+  { thumb: "/demo/delivery-1.jpg", full: "/demo/delivery-1.jpg" },
+  { thumb: "/demo/delivery-2.jpg", full: "/demo/delivery-2.jpg" },
+  { thumb: "/demo/delivery-3.jpg", full: "/demo/delivery-3.jpg" },
+  { thumb: "/demo/delivery-4.jpg", full: "/demo/delivery-4.jpg" },
 ];

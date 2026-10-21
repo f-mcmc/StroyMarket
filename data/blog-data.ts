@@ -26,7 +26,7 @@ export const blogPosts: BlogPost[] = [
     date: "29 апреля 2026",
     sortDate: "2026-04-29",
     image:
-      "https://www.stroiopttorg.ru/wp-content/uploads/2026/04/gazonokosilki.-blog-kopija-3-605x264.jpeg",
+      "/demo/blog-lawn.jpg",
     content: [
       "**Это то, что будет в тренде через пару недель.**",
       "Пока трава только просыпается — самое время присмотреться к технике, которая сэкономит вам часы жизни этим летом.",
@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
     date: "21 ноября 2023",
     sortDate: "2023-11-21",
     image:
-      "https://www.stroiopttorg.ru/wp-content/uploads/2023/11/a3yvumf88f9wzheh332i45vzglr13x2k-605x317.webp",
+      "/demo/blog-card.jpg",
     content: [
       "Теперь совершать покупки в ООО «StroyMarket» стало еще удобнее! Для вашего удобства мы запускаем электронную карту скидок.",
       "Электронная дисконтная карта имеет все преимущества обычной пластиковой карты, но при этом её не нужно носить с собой и невозможно потерять — она всегда под рукой в вашем телефоне.",
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     date: "НОВОСТИ 21 ноября 2023",
     sortDate: " 2023-11-20",
     image:
-      "https://www.stroiopttorg.ru/wp-content/uploads/2023/11/ifqyvfkwj0x6xt6g2vu2ac72wus6okv0-396x330.webp",
+      "/demo/blog-credit.jpg",
     content: [
       "**Кредит от ОТП БАНК**",
       "Получайте товар сразу, а платите — потом.",
@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "3 октября 2023",
     sortDate: "2023-10-03",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news4.webp",
+    image: "/demo/news-drill.jpg",
     content: [
       "Электродрель — один из самых универсальных инструментов в арсенале любого мастера. При выборе стоит обратить внимание на мощность, наличие ударного режима, тип патрона и максимальный диаметр сверления.",
       "Для бытовых задач достаточно компактной сетевой или аккумуляторной модели, а для интенсивной стройки лучше присмотреться к профессиональным дрелям-шуруповёртам с ударным механизмом.",
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news4.webp",
+    image: "/demo/news-drill.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -111,7 +111,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news.webp",
+    image: "/demo/news-tools.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -121,7 +121,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news3.webp",
+    image: "/demo/news-bricks.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -131,7 +131,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news2.webp",
+    image: "/demo/news-catalog.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -141,7 +141,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news.webp",
+    image: "/demo/news-tools.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -151,7 +151,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news4.webp",
+    image: "/demo/news-drill.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news3.webp",
+    image: "/demo/news-bricks.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -171,7 +171,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news2.webp",
+    image: "/demo/news-catalog.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -181,7 +181,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news.webp",
+    image: "/demo/news-tools.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news4.webp",
+    image: "/demo/news-drill.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -201,7 +201,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news3.webp",
+    image: "/demo/news-bricks.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -211,7 +211,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news2.webp",
+    image: "/demo/news-catalog.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -221,7 +221,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news.webp",
+    image: "/demo/news-tools.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -231,7 +231,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news4.webp",
+    image: "/demo/news-drill.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -241,7 +241,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news3.webp",
+    image: "/demo/news-bricks.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -251,7 +251,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: `${GENERIC_UPDATE_EXCERPT}2`,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news2.webp",
+    image: "/demo/news-catalog.jpg",
     content: GENERIC_UPDATE_BODY,
   },
   {
@@ -261,7 +261,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: GENERIC_UPDATE_EXCERPT,
     date: "1 октября 2023",
     sortDate: "2023-10-01",
-    image: "https://www.stroiopttorg.ru/wp-content/uploads/2023/10/news.webp",
+    image: "/demo/news-tools.jpg",
     content: GENERIC_UPDATE_BODY,
   },
 ];

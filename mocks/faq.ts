@@ -12,8 +12,6 @@ import type { ReferencePromoCard, ReferenceSubscribeConfig } from "@/types/refer
  * включая авторскую пунктуацию — это эталон, с которым сверяется вёрстка.
  */
 
-const UPLOADS = "https://www.stroiopttorg.ru/wp-content/uploads";
-
 export const faqTitle = "Вопрос-ответ";
 
 export const faqItems: FAQItem[] = [
@@ -79,14 +77,14 @@ export const faqPromos: ReferencePromoCard[] = [
   {
     id: "heating",
     href: "/blog",
-    image: `${UPLOADS}/2023/09/promo5.webp`,
+    image: "/demo/promo-heating.jpg",
     title: "Все для отопления",
     badge: "до -30%",
   },
   {
     id: "paints",
     href: "/blog",
-    image: `${UPLOADS}/2023/09/promo6.webp`,
+    image: "/demo/promo-paint.jpg",
     title: "Лакокрасочные материалы",
     badge: "до -30%",
   },

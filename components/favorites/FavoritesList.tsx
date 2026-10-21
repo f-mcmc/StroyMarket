@@ -31,7 +31,7 @@ function EmptyState() {
     <div className="mx-auto mt-14 flex max-w-lg flex-col items-center gap-5 text-center sm:mt-20">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://www.stroiopttorg.ru/wp-content/uploads/2023/10/favourite4.svg"
+        src="/demo/favourite-empty.svg"
         alt=""
         aria-hidden="true"
         className="mx-auto block w-24"

@@ -15,18 +15,18 @@ import { styles } from "@/styles/index.styles";
 
 const infoLinks = [
   ["О компании", "/about"],
-  ["Оплата", "/payment"],
-  ["Доставка", "/delivery"],
+  ["Оплата", "/oplata"],
+  ["Доставка", "/dostavka"],
   ["Возврат", "/return"],
   ["Отзывы", "/reviews"],
 ];
 
 const infoLinksSecond = [
-  ["Вопрос-ответ", "/faq"],
-  ["Новости", "/news"],
+  ["Вопрос-ответ", "/vopros-otvet"],
+  ["Новости", "/novosti"],
   ["Контакты", "/contacts"],
   ["Вход \\ Регистрация", "/my-account"],
-  ["Все акции", "/promotions"],
+  ["Все акции", "/stocks"],
 ];
 
 // Каталог в 3 колонки (desktop)

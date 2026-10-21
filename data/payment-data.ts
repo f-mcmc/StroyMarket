@@ -10,7 +10,6 @@ import type { PaymentBlock, PaymentPromoCard, PaymentSubscribeConfig } from "@/t
  * авторские кавычки-«ёлочки» и “лапки” — это эталон, с которым сверяется вёрстка.
  */
 
-const UPLOADS = "https://www.stroiopttorg.ru/wp-content/uploads";
 
 export const paymentTitle = "Способы оплаты";
 
@@ -112,7 +111,7 @@ export const paymentPromos: PaymentPromoCard[] = [
   {
     id: "heating",
     href: "/blog",
-    image: `${UPLOADS}/2023/09/promo5.webp`,
+    image: "/demo/promo-heating.jpg",
     // Опечатка «отоплления» — как в оригинале.
     title: "Все для отоплления",
     badge: "до -30%",
@@ -120,7 +119,7 @@ export const paymentPromos: PaymentPromoCard[] = [
   {
     id: "paints",
     href: "/blog",
-    image: `${UPLOADS}/2023/09/promo6.webp`,
+    image: "/demo/promo-paint.jpg",
     title: "Лакокрасочные материалы",
     badge: "до -30%",
   },
